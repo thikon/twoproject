@@ -6,7 +6,6 @@ namespace submodulestest
     {
         private string Name { get; set; }
         private string LastName { get; set; }
-        private string Occupation { get; set; }
 
         public Class1(string name, string lastname)
         {
@@ -22,6 +21,11 @@ namespace submodulestest
         public string GetOccupation(string occupation)
         {
             return occupation;
+        }
+
+        public int Calculate(int x, int y)
+        {
+            return x + y;
         }
     }
 }
